@@ -1,29 +1,55 @@
 h1 {
     color: white;
+    font-family: 'Montserrat';
 }
 body {
     padding: 0;
     margin: 0;
 }
+.text {
+    font-family: sans-serif;
+    color: aliceblue;
+}
 .container {
     display: grid;
-    grid-template-columns: minmax(auto, 30%) minmax(auto, 35%) minmax(auto, 35%);
-    grid-template-rows: minmax(auto, 20rem) minmax(auto, 20rem);
+    grid-template-columns: minmax(auto, 30%) minmax(auto, 100%);
+    grid-template-rows: minmax(auto, 100%) minmax(auto, 100%);
 
 }
-.intro-col {
+.main-col-1 {
     background-color: brown;
     grid-column-start: 1;
     grid-column-end: 1;
     grid-row-start: 1;
-    grid-row-end: 4;
+    grid-row-end: 3;
     padding: 2rem;
-    align-items: center;
-    justify-content: center;
+    justify-items: center;
+}
+.main-col-2 {
+    background-color: cyan;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    padding: 2rem;
+    justify-items: center;
 }
 .item {
-    width: 100%;
-    height: 25%;
-    background: rgba(255, 213, 70, 0.4);
-    border: 2px dashed rgba(236, 198, 48, 0.5);
+    max-width: 100%;
+    min-width: 10%;
+    height: 33%;
+    justify-items: center;
+}
+.item-flat {
+    max-width: 100%;
+    min-width: 10%;
+    justify-items: center;
+    display: inline;
+}
+.profile-image {
+    max-width: 10rem;
+    max-height: 10rem;
+    min-width: 5rem;
+    min-width: 5rem;
+    justify-items: center;
 }
