@@ -16,7 +16,7 @@ h2 {
 h3 {
     font-family: 'Barlow Semi Condensed', sans-serif;
     text-transform: uppercase;
-    color: rgb(92, 92, 92);
+    color: rgb(44, 63, 44);
     font-size: 1rem;
 }
 body {
@@ -40,7 +40,6 @@ p {
 .personalCol {
     display: flex;
     flex-flow: column nowrap;
-    background: linear-gradient(0.25turn, #242424, #1e301d, #01362f);
     width: 30%;
     min-height: 100%;
     align-items: center;
@@ -56,7 +55,7 @@ p {
 .infoItem {
     display: flex;
     flex-flow: row nowrap;
-    color: white;
+    color: rgb(43, 43, 43);
 }
 .titleCol {
     display: flex;
@@ -65,14 +64,22 @@ p {
     align-items: center;
     padding: 2rem;
 }
-.name {
+.subtitle {
+    color: grey;
+}
+.title {
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
     justify-content: center;
+    padding: 1rem 0 0 0;
     font-family: 'Open Sans', sans-serif;
     width: 85%;
-    color: rgb(199, 199, 199);
+    color: rgb(44, 44, 44);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3rem;
+    font-weight: 200;
+    margin: 0;
 }
 .avatar {
     display: flex;
@@ -82,7 +89,7 @@ p {
     padding: .3rem; 
     border: 4px transparent;
     border-radius: 200px;
-    background-image: radial-gradient(circle at top left, #f00,#3020ff);
+    background-image: radial-gradient(circle at top left, white, white, #a3008d, rgb(14, 85, 0), rgb(255, 255, 255));
 	background-size: 400% 400%;
 	animation: gradientBG 15s ease infinite;
 }
@@ -91,7 +98,7 @@ p {
     flex-flow: column nowrap;
     background-color: white;
     align-items: flex-start;
-    padding: 3rem;
+    padding: 3rem 3rem 0 3rem;
 }
 .sectionTitle {
     display: flex;
