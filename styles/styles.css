@@ -1,5 +1,7 @@
 h1 {
-    color: rgb(221, 221, 221);
+    background: radial-gradient(circle at top left, #2c2c2c, rgb(99, 99, 99));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-family: 'Bebas Neue', cursive;
     font-size: 3rem;
     font-weight: 200;
@@ -65,8 +67,6 @@ p {
     flex-flow: row wrap;
     justify-content: flex-start;
     align-items: flex-start;
-    min-width: 55rem;
-    max-width: 70rem;
 }
 .imgtitle {
     display: flex;
@@ -119,21 +119,16 @@ p {
 	animation: gradientBG 15s ease infinite;
 }
 .heroCol {
-    width: 20%;
-  -webkit-transform: skewY(-5deg);
-  -moz-transform: skewY(-5deg);
-  -ms-transform: skewY(-5deg);
-  -o-transform: skewY(-5deg);
-  transform: skewY(-5deg);
-  background: #a3008d;
+    overflow: hidden;
+    z-index: -1;
+    position: fixed;
 }
-.heroCol > .heroContent {
-  -webkit-transform: skewY(5deg);
-  -moz-transform: skewY(5deg);
-  -ms-transform: skewY(5deg);
-  -o-transform: skewY(5deg);
-  transform: skewY(5deg);
-  background-color: #a3008d;
+.heroimg {
+    width: 40rem;
+    overflow: hidden;
+    z-index: -50;
+    align-items: right;
+    justify-content:right;
 }
 .section {
     display: flex;
