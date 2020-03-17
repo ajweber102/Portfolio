@@ -83,6 +83,8 @@ p {
     border: 4px transparent;
     border-radius: 200px;
     background-image: radial-gradient(circle at top left, #f00,#3020ff);
+	background-size: 400% 400%;
+	animation: gradientBG 15s ease infinite;
 }
 .section {
     display: flex;
