@@ -33,19 +33,20 @@ p {
 }
 .container {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: column nowrap;
     max-width: 100%;
     min-height: 100%;
 }
-.personalCol {
+.personalSection {
     display: flex;
-    flex-flow: column nowrap;
-    width: 30%;
-    min-height: 100%;
+    flex-flow: row nowrap;
+    width: 80%;
+    height: 40rem;
     align-items: center;
     justify-content: flex-start;
+    padding: 0 4rem;
 }
-.infoCol {
+.infoSection {
     display: flex;
     flex-flow: column nowrap;
     width: 70%;
@@ -54,15 +55,26 @@ p {
 }
 .infoItem {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: column nowrap;
     color: rgb(43, 43, 43);
+    min-width: 30rem;
+    max-width: 40rem;
 }
 .titleCol {
     display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    min-width: 55rem;
+    max-width: 70rem;
+}
+.imgtitle {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
     align-items: center;
-    padding: 2rem;
+    min-width: 55rem;
+    max-width: 70rem;
 }
 .subtitle {
     color: grey;
@@ -70,9 +82,8 @@ p {
 .title {
     display: flex;
     flex-flow: column nowrap;
-    align-items: center;
-    justify-content: center;
-    padding: 1rem 0 0 0;
+    justify-content: flex-start;
+    align-items: flex-start;
     font-family: 'Open Sans', sans-serif;
     width: 85%;
     color: rgb(44, 44, 44);
@@ -81,17 +92,48 @@ p {
     font-weight: 200;
     margin: 0;
 }
+.titleCollec {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    width: 55%;
+    color: rgb(44, 44, 44);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3rem;
+    font-weight: 200;
+    margin: 0;
+}
 .avatar {
     display: flex;
-    flex-flow: row nowrap;
-    width:10rem;
+    flex-flow: column nowrap;
+    width: 10rem;
     margin: .2rem;
     padding: .3rem; 
     border: 4px transparent;
     border-radius: 200px;
-    background-image: radial-gradient(circle at top left, white, white, #a3008d, rgb(14, 85, 0), rgb(255, 255, 255));
+    background-image: radial-gradient(circle at top left, white, white,  #a3008d, rgb(255, 255, 255));
 	background-size: 400% 400%;
 	animation: gradientBG 15s ease infinite;
+}
+.heroCol {
+    width: 20%;
+  -webkit-transform: skewY(-5deg);
+  -moz-transform: skewY(-5deg);
+  -ms-transform: skewY(-5deg);
+  -o-transform: skewY(-5deg);
+  transform: skewY(-5deg);
+  background: #a3008d;
+}
+.heroCol > .heroContent {
+  -webkit-transform: skewY(5deg);
+  -moz-transform: skewY(5deg);
+  -ms-transform: skewY(5deg);
+  -o-transform: skewY(5deg);
+  transform: skewY(5deg);
+  background-color: #a3008d;
 }
 .section {
     display: flex;
