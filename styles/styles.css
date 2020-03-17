@@ -1,55 +1,137 @@
 h1 {
-    color: white;
-    font-family: 'Montserrat';
-}
-body {
-    padding: 0;
+    color: rgb(221, 221, 221);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3rem;
+    font-weight: 200;
     margin: 0;
 }
-.text {
-    font-family: sans-serif;
-    color: aliceblue;
+h2 {
+    color: rgb(138, 138, 138);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2rem;
+    font-weight: 200;
+    margin: 0;
+    font-style: italic;
+}
+h3 {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    text-transform: uppercase;
+    color: rgb(92, 92, 92);
+    font-size: 1rem;
+}
+body {
+    margin: 0;
+    min-width: 50%;
+    max-width: 100%;
+    height: 100%;
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(49, 49, 49);
+    font-size: 12px;
+    line-height: 1.5rem;
 }
 .container {
-    display: grid;
-    grid-template-columns: minmax(auto, 30%) minmax(auto, 100%);
-    grid-template-rows: minmax(auto, 100%) minmax(auto, 100%);
-
-}
-.main-col-1 {
-    background-color: brown;
-    grid-column-start: 1;
-    grid-column-end: 1;
-    grid-row-start: 1;
-    grid-row-end: 3;
-    padding: 2rem;
-    justify-items: center;
-}
-.main-col-2 {
-    background-color: cyan;
-    grid-column-start: 2;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 3;
-    padding: 2rem;
-    justify-items: center;
-}
-.item {
+    display: flex;
+    flex-flow: row nowrap;
     max-width: 100%;
-    min-width: 10%;
-    height: 33%;
-    justify-items: center;
+    min-height: 100%;
 }
-.item-flat {
+.personalCol {
+    display: flex;
+    flex-flow: column nowrap;
+    background: linear-gradient(0.25turn, #242424, #1e301d, #01362f);
+    width: 30%;
+    min-height: 100%;
+    align-items: center;
+    justify-content: flex-start;
+}
+.infoCol {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 70%;
+    min-height: 100%;
+    background: rgb(247, 247, 247);
+}
+.infoItem {
+    display: flex;
+    flex-flow: row nowrap;
+    color: white;
+}
+.titleCol {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+.name {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    width: 85%;
+    color: rgb(199, 199, 199);
+}
+.avatar {
+    display: flex;
+    flex-flow: row nowrap;
+    width:10rem;
+    margin: .2rem;
+    padding: .3rem; 
+    border: 4px transparent;
+    border-radius: 200px;
+    background-image: radial-gradient(circle at top left, #f00,#3020ff);
+}
+.section {
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: white;
+    align-items: flex-start;
+    padding: 3rem;
+}
+.sectionTitle {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.sectionSubtitle {
+    display: flex;
+    flex-flow: row nowrap;
+}
+.sectionIcon {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 3rem;
+    height: 3rem;
+    padding: 0 1rem 0 0;
+    fill: blue;
+}
+.sectionBody {
+    display: flex;
+    flex-flow: column nowrap;
+    min-width: 100%;
+}
+.bodyItem {
+    display: flex;
+    flex-flow: row wrap;
+    min-width: 50%;
     max-width: 100%;
-    min-width: 10%;
-    justify-items: center;
-    display: inline;
+    padding-right: 1rem;
 }
-.profile-image {
-    max-width: 10rem;
-    max-height: 10rem;
-    min-width: 5rem;
-    min-width: 5rem;
-    justify-items: center;
+#firstChild {
+    padding: 2rem 0 0 0;
 }
+@keyframes gradientBG {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+  }
