@@ -39,15 +39,16 @@ p {
     flex-flow: column nowrap;
     max-width: 100%;
     min-height: 100%;
+    padding: 3rem;
 }
 .personalSection {
     display: flex;
     flex-flow: row nowrap;
-    width: 80%;
-    height: 40rem;
+    width: 100%;
+    height: 37rem;
     align-items: center;
     justify-content: flex-start;
-    padding: 0 4rem;
+    padding: 2rem 0;
 }
 .infoItem {
     display: flex;
@@ -63,6 +64,7 @@ p {
     align-items: center;
     min-width: 55rem;
     max-width: 70rem;
+    padding: 1rem;
 }
 .imgtitle {
     display: flex;
@@ -123,7 +125,7 @@ p {
     overflow: hidden;
     z-index: -1;
     position: absolute;
-    max-width: 90%;
+    max-width: 95%;
     min-width: 84%;
 }
 .heroContent {
@@ -132,14 +134,15 @@ p {
     justify-content: flex-end;
 }
 .heroimg {
-    min-width: 25%;
-    max-width: 35%;
+    min-width: 20%;
+    max-width: 30%;
+    padding: .5rem;
     overflow: hidden;
     transform-origin: left top;
     transform: rotate(9deg);
     object-fit: cover;
-    object-position: 20% 10px; 
-    background-image: radial-gradient(circle at top left, #00a39b, rgb(96, 0, 126));
+    object-position: 20%; 
+    background-image: radial-gradient(circle at top right, #707070, #00a39b);
 	background-size: 400% 400%;
 }
 .infoSection {
@@ -147,16 +150,16 @@ p {
     flex-flow: row wrap;
     width: 100%;
     min-height: 100%;
+    padding: 2rem 0;
 }
 .section {
     display: flex;
     flex-flow: column nowrap;
     background-color: white;
     align-items: flex-start;
-    padding: 1rem 3rem 0 3rem;
-    max-width: 42%;
-    min-width: 30%;
-    border: .2rem #00857e;
+    padding-bottom: 2rem;
+    max-width: 50%;
+    min-width: 20%;
 }
 .section--100 {
     width: 100%;
@@ -208,5 +211,22 @@ p {
     }
   }
 
-  @media (max-width: 1200px) {
-  }
+@media (max-width: 1100px) {
+    .section {
+        max-width: 100%;
+        min-width: 40%;
+        padding: 3rem 3rem 0 3rem;
+    }
+}
+@media (max-width: 1075px) {
+    .heroimg {
+        max-width: 25%;
+        min-width: 5%;
+    }
+}
+@media (max-width: 975px) {
+    .heroimg {
+        max-width: 25%;
+        min-width: 5%;
+    }
+}
