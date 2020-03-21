@@ -45,10 +45,10 @@ p {
     display: flex;
     flex-flow: row nowrap;
     width: 100%;
-    height: 37rem;
+    height: 12rem;
+    padding: 12rem 0rem;
     align-items: center;
     justify-content: flex-start;
-    padding: 2rem 0;
 }
 .infoItem {
     display: flex;
@@ -117,7 +117,7 @@ p {
     padding: .3rem; 
     border: 4px transparent;
     border-radius: 200px;
-    background-image: radial-gradient(circle at top left, rgb(0, 175, 23), white, #00a39b, rgb(96, 0, 126));
+    background-image: radial-gradient(circle at top left, rgb(0, 175, 23), white, #a33c00, rgb(125, 17, 158));
 	background-size: 400% 400%;
 	animation: gradientBG 15s ease infinite;
 }
@@ -142,27 +142,39 @@ p {
     transform: rotate(9deg);
     object-fit: cover;
     object-position: 20%; 
-    background-image: radial-gradient(circle at top right, #707070, #00a39b);
+    background-image: radial-gradient(circle at top left, #00a39b, rgb(255, 255, 255));
 	background-size: 400% 400%;
+	animation: gradientBG 15s ease infinite;
 }
 .infoSection {
     display: flex;
     flex-flow: row wrap;
-    width: 100%;
+    min-width: 20%;
+    max-width: 100%;
     min-height: 100%;
-    padding: 2rem 0;
+    justify-content: flex-start;
 }
 .section {
     display: flex;
-    flex-flow: column nowrap;
+    flex-flow: column wrap;
     background-color: white;
     align-items: flex-start;
-    padding-bottom: 2rem;
-    max-width: 50%;
+    padding: 2rem 2rem 0 2rem;
+    max-width: 44%;
     min-width: 20%;
+    border: grey 1rem;
 }
 .section--100 {
-    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+}
+.section--60 {
+    max-width: 60%;
+    min-width: 30%;
+}
+.section--40 {
+    max-width: 40%;
+    min-width: 5%;
 }
 .sectionTitle {
     display: flex;
@@ -174,6 +186,8 @@ p {
     display: flex;
     flex-flow: row nowrap;
     text-transform: none;
+    min-width: 50%;
+    max-width: 100%;
 }
 .sectionIcon {
     display: flex;
@@ -211,6 +225,66 @@ p {
     }
   }
 
+@media (max-width: 1163px) {
+    .section {
+        max-width: 100%;
+    }
+    .heroimg {
+        max-width: 25%;
+        min-width: 5%;
+    }
+    .personalSection {
+        padding: 8rem 0rem 8rem 0rem;
+    }
+}
+@media (max-width: 1053px) {
+    .titleCol {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+}
+@media (max-width: 983px) {
+    .avatar {
+        width: 8rem;
+    }
+    .title {
+        font-size: 2.5rem;
+    }
+    .personalSection {
+        display: flex;
+        flex-flow: column;
+        /* max-width: 100%; */
+        /* min-width: 20%; */
+        height: 15rem;
+        padding: 7rem 0rem;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .infoSection {
+        flex-flow: column;
+    }
+}
+/* @media (max-width: 1255px) {
+    .section {
+        max-width: 100%;
+    }
+}
+@media (max-width: 1131px) {
+    .heroimg {
+        max-width: 25%;
+        min-width: 5%;
+    }
+    .personalSection {
+        padding: 8rem 0rem 8rem 0rem;
+    }
+    .section {
+        max-width: 100%;
+        min-width: 40%;
+        padding: 3rem 3rem 0 3rem;
+    }
+}
 @media (max-width: 1100px) {
     .section {
         max-width: 100%;
@@ -223,10 +297,14 @@ p {
         max-width: 25%;
         min-width: 5%;
     }
+    .sectionBody {
+        min-width: 100%;
+        max-width: 100%;
+    }
 }
 @media (max-width: 975px) {
     .heroimg {
         max-width: 25%;
         min-width: 5%;
     }
-}
+} */
