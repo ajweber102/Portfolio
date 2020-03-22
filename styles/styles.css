@@ -1,5 +1,5 @@
 h1 {
-    background: radial-gradient(circle at top left, #2c2c2c, #00a39b);
+    background: radial-gradient(circle at top left, #333333, #009420);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: 'Bebas Neue', cursive;
@@ -36,33 +36,32 @@ p {
 }
 .container {
     display: flex;
+    flex: 1 1 auto;
     flex-flow: column nowrap;
-    max-width: 100%;
     min-height: 100%;
     padding: 3rem;
 }
 .personalSection {
     display: flex;
     flex-flow: row nowrap;
-    width: 100%;
-    height: 12rem;
-    padding: 12rem 0rem;
+    flex: 1 1 auto;
+    padding: 8rem 0rem;
     align-items: center;
     justify-content: flex-start;
 }
 .infoItem {
     display: flex;
-    flex-flow: column nowrap;
+    flex-flow: column nowrap;    
+    width: 85%;
     color: rgb(43, 43, 43);
-    min-width: 30rem;
-    max-width: 40rem;
+    flex: 1 1 auto;
 }
 .titleCol {
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-start;
     align-items: center;
-    min-width: 55rem;
+    min-width: 6rem;
     max-width: 70rem;
     padding: 1rem;
 }
@@ -106,7 +105,7 @@ p {
     margin: 0;
 }
 .name {
-    color: #00857e;
+    color: #009420;
     font-weight: 1000;
 }
 .avatar {
@@ -117,7 +116,7 @@ p {
     padding: .3rem; 
     border: 4px transparent;
     border-radius: 200px;
-    background-image: radial-gradient(circle at top left, rgb(0, 175, 23), white, #a33c00, rgb(125, 17, 158));
+    background-image: radial-gradient(circle at top left, rgb(0, 175, 23), rgb(255, 255, 255), #009420, rgb(158, 156, 17));
 	background-size: 400% 400%;
 	animation: gradientBG 15s ease infinite;
 }
@@ -134,15 +133,15 @@ p {
     justify-content: flex-end;
 }
 .heroimg {
-    min-width: 20%;
-    max-width: 30%;
+    min-width: 18%;
+    max-width: 25%;
     padding: .5rem;
     overflow: hidden;
     transform-origin: left top;
     transform: rotate(9deg);
     object-fit: cover;
     object-position: 20%; 
-    background-image: radial-gradient(circle at top left, #00a39b, rgb(255, 255, 255));
+    background-image: radial-gradient(circle at top left, #009420, rgb(255, 255, 255));
 	background-size: 400% 400%;
 	animation: gradientBG 15s ease infinite;
 }
@@ -157,16 +156,17 @@ p {
 .section {
     display: flex;
     flex-flow: column wrap;
+    flex: 1 1 auto;
+    min-width: 30%;
+    max-width: 43%;
     background-color: white;
     align-items: flex-start;
     padding: 2rem 2rem 0 2rem;
-    max-width: 44%;
-    min-width: 20%;
     border: grey 1rem;
 }
-.section--100 {
-    max-width: 100%;
-    min-width: 100%;
+.section--88 {
+    max-width: 88%;
+    min-width: 88%;
 }
 .section--60 {
     max-width: 60%;
@@ -200,14 +200,11 @@ p {
 .sectionBody {
     display: flex;
     flex-flow: column nowrap;
-    min-width: 50%;
-    max-width: 100%;
+    flex: 1 1 auto;
 }
 .bodyItem {
     display: flex;
     flex-flow: row wrap;
-    min-width: 50%;
-    max-width: 100%;
     padding-right: 1rem;
 }
 #firstChild {
@@ -230,81 +227,81 @@ p {
         max-width: 100%;
     }
     .heroimg {
-        max-width: 25%;
+        max-width: 20%;
         min-width: 5%;
     }
     .personalSection {
-        padding: 8rem 0rem 8rem 0rem;
+        padding: 6rem 0rem 6rem 0rem;
     }
 }
 @media (max-width: 1053px) {
-    .titleCol {
-        display: flex;
-        flex-flow: column wrap;
-        justify-content: flex-start;
-        align-items: flex-start;
+    .avatar {
+        width: 8rem;
     }
 }
 @media (max-width: 983px) {
     .avatar {
-        width: 8rem;
+        margin: 2rem;
+    }
+    .container {
+        flex-flow: column wrap;
     }
     .title {
         font-size: 2.5rem;
     }
     .personalSection {
-        display: flex;
-        flex-flow: column;
-        /* max-width: 100%; */
-        /* min-width: 20%; */
-        height: 15rem;
-        padding: 7rem 0rem;
-        align-items: flex-start;
-        justify-content: center;
+        flex-flow: initial;
+        padding: 0;
+    }
+    .heroCol {
+        float: left;
+        padding: 0;
     }
     .infoSection {
         flex-flow: column;
     }
-}
-/* @media (max-width: 1255px) {
-    .section {
-        max-width: 100%;
+    .titleCol {
+        padding: 2rem;
     }
-}
-@media (max-width: 1131px) {
+    .titleCollec {
+        width: 76%;
+        padding: 0;
+    }
     .heroimg {
-        max-width: 25%;
-        min-width: 5%;
-    }
-    .personalSection {
-        padding: 8rem 0rem 8rem 0rem;
-    }
-    .section {
-        max-width: 100%;
-        min-width: 40%;
-        padding: 3rem 3rem 0 3rem;
-    }
-}
-@media (max-width: 1100px) {
-    .section {
-        max-width: 100%;
-        min-width: 40%;
-        padding: 3rem 3rem 0 3rem;
+        min-width: 20%;
+        max-width: 30%;
+        padding: .5rem;
+        overflow: hidden;
+        opacity: 15%;
+        transform-origin: left top;
+        transform: rotate(9deg);
+        object-fit: cover;
+        object-position: 20%; 
+        /* background-image: radial-gradient(circle at top left, #00a39b, rgb(255, 255, 255));
+        background-size: 400% 400%;
+        animation: gradientBG 15s ease infinite; */
     }
 }
-@media (max-width: 1075px) {
+@media (max-width: 550px) {
+    .avatar {
+        width: 8rem;
+        margin: 1rem;
+    }
+    .titleCol {
+        justify-content: center;
+        padding: 0;
+    }
+    .titleCollec {
+        padding: 0;
+    }
     .heroimg {
-        max-width: 25%;
-        min-width: 5%;
+        display: none;
     }
-    .sectionBody {
-        min-width: 100%;
-        max-width: 100%;
+    .container {
+        display: flex;
+        flex: 1 1 auto;
+        flex-flow: column nowrap;
+        min-height: 100%;
+        padding: 1rem;
     }
 }
-@media (max-width: 975px) {
-    .heroimg {
-        max-width: 25%;
-        min-width: 5%;
-    }
-} */
