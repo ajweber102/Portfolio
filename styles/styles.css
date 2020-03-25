@@ -221,6 +221,30 @@ p {
         background-position: 0% 50%;
     }
   }
+/* ----------------- Footer ------------------*/
+
+footer {
+    display: flex;
+    flex: 1 1 auto;
+    flex-flow: row wrap;
+    margin: 5rem;
+    background-color: rgb(233, 233, 233);
+}
+.footerSectionTitle {
+    font-style: normal;
+    font-size: 1.5rem;
+}
+.footerContent {
+    line-height: .9rem;
+}
+.footerSection {
+    display: flex;
+    flex: 1 1 auto;
+    flex-flow: row wrap;
+    padding: 2rem;
+}
+
+/* ------------- MEDIA QUERIES ---------------*/
 
 @media (max-width: 1163px) {
     .section {
@@ -282,6 +306,7 @@ p {
         animation: gradientBG 15s ease infinite; */
     }
 }
+
 @media (max-width: 550px) {
     .avatar {
         width: 8rem;
