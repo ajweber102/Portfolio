@@ -13,7 +13,7 @@ h2 {
     font-size: 2rem;
     font-weight: 200;
     margin: 0;
-    background: radial-gradient(circle at top left, #252525, #00658d);
+    background: radial-gradient(circle at top left, #00658d, #252525);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -276,6 +276,14 @@ footer {
     flex: 1 1 auto;
     flex-flow: row wrap;
     padding: 2rem;
+}
+.superfooterSection {
+    display: flex;
+    width: 100%;
+    flex: 0 1 auto;
+    flex-flow: row nowrap;
+    padding: 0 2rem;
+    background-color: rgb(233, 233, 233);
 }
 
 /* ------------- MEDIA QUERIES ---------------*/
