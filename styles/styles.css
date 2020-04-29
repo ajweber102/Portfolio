@@ -40,6 +40,9 @@ a {
     color:rgb(0, 82, 121); 
     text-decoration: none;
     font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    line-height: 1.5rem;
 }
 .container {
     display: flex;
