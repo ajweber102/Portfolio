@@ -168,7 +168,7 @@ a {
     padding: .5rem;
     overflow: hidden;
     object-fit: cover;
-    opacity: 80%;
+    opacity: 70%;
 }
 .infoSection {
     display: flex;
@@ -331,16 +331,9 @@ footer {
     }
     .heroimg {
         width: 150%;
-        display: none;
     }
     .heroContent {
         width: 150%;
-        display: none;
-    }
-}
-@media (max-width: 695px) {
-    .heroimg {
-        display: none;
     }
 }
 @media (max-width: 550px) {
@@ -350,7 +343,6 @@ footer {
     }
     .heroContent {
         width: 100%;
-        display: none;
     }
     .personalSection {
         flex-flow: initial;
