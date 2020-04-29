@@ -323,9 +323,11 @@ footer {
     }
     .heroimg {
         width: 150%;
+        display: none;
     }
     .heroContent {
         width: 150%;
+        display: none;
     }
 }
 @media (max-width: 695px) {
