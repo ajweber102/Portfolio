@@ -384,3 +384,12 @@ footer {
         padding: 0;
     }
 }
+@media (max-width: 480px) {
+    .sectionSubtitle {
+        align-items: flex-start;
+        flex-flow: column;
+    }
+    .subtitleLink {
+        padding: 0;
+    }
+}
