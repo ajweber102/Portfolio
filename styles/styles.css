@@ -131,7 +131,7 @@ a {
     padding: .3rem; 
     border: 4px transparent;
     border-radius: 200px;
-    background-image: radial-gradient(circle at top left, #ffffff, #ffffff, rgb(255, 255, 255), #009420, #ffffff, #005994, rgb(0, 57, 143), rgb(158, 156, 17));
+    background-image: radial-gradient(circle at top left, #e7e7e7, #064700, #064700, #cccccc, #68976c, #f3f3f3);
 	background-size: 400% 400%;
     animation: gradientBG 15s ease infinite;
 }
@@ -153,7 +153,7 @@ a {
     z-index: -1;
     position: absolute;
     max-width: 95%;
-    min-width: 84%;
+    min-width: 95%;
 }
 .heroContent {
     display: flex;
@@ -168,7 +168,7 @@ a {
     padding: .5rem;
     overflow: hidden;
     object-fit: cover;
-    opacity: 70%;
+    opacity: 40%;
 }
 .infoSection {
     display: flex;
@@ -286,9 +286,9 @@ footer {
 @media (max-width: 1470px) {
     
     .heroimg {
-        max-width: 98%;
+        max-width: 44%;
         min-width: 5%;
-        opacity: 10%;
+        opacity: 20%;
     }
 }
 
@@ -296,10 +296,16 @@ footer {
     .section {
         max-width: 100%;
     }
+    .heroimg {
+        max-width: 79%;
+    }
 }
 @media (max-width: 1053px) {
     .avatar {
         width: 8rem;
+    }
+    .heroCol {
+        position: fixed;
     }
 }
 @media (max-width: 883px) {
@@ -330,30 +336,33 @@ footer {
         padding: 0 1rem 1rem 1rem;
     }
     .heroimg {
-        width: 150%;
-    }
-    .heroContent {
-        width: 150%;
+        max-width: 100%;
     }
 }
+
+@media (max-width:680) {
+
+}
+
 @media (max-width: 550px) {
     .avatar {
         width: 8rem;
         margin: 1rem;
     }
     .heroContent {
-        width: 200%;
+        width: 100%;
+        display: none;
     }
     .personalSection {
         flex-flow: initial;
-        padding: 1.5rem 3rem 1.5rem 3rem;
+        padding: 1.5rem 2rem 1.5rem 2rem;
     }
     .titleCol {
+        padding: 1rem 0 0 0;
         justify-content: center;
-        padding: 0;
     }
-    .titleCollec {
-        padding: 0;
+    .section {
+        padding: 3rem;
     }
     .container {
         display: flex;
