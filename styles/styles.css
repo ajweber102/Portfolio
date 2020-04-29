@@ -131,7 +131,7 @@ a {
     padding: .3rem; 
     border: 4px transparent;
     border-radius: 200px;
-    background-image: radial-gradient(circle at top left, #ffffff, #ffffff, rgb(255, 255, 255), #009420, #ffffff, #005994, rgb(0, 57, 143), rgb(158, 156, 17));
+    background-image: radial-gradient(circle at top left, #e7e7e7, #064700, #064700, #cccccc, #68976c, #f3f3f3);
 	background-size: 400% 400%;
     animation: gradientBG 15s ease infinite;
 }
