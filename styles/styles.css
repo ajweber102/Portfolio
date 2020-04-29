@@ -318,6 +318,7 @@ footer {
     }
     .heroCol {
         float: left;
+        right: 2rem;
     }
     .infoSection {
         flex-flow: column;
@@ -342,7 +343,7 @@ footer {
         margin: 1rem;
     }
     .heroContent {
-        width: 100%;
+        width: 200%;
     }
     .personalSection {
         flex-flow: initial;
@@ -373,5 +374,8 @@ footer {
     }
     .infoSection {
         padding: 0;
+    }
+    .heroCol {
+        right: 8rem;
     }
 }
