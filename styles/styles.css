@@ -359,6 +359,10 @@ footer {
     }
     .titleCol {
         padding: 1rem 0 0 0;
+        justify-content: center;
+    }
+    .section {
+        padding: 3rem;
     }
     .container {
         display: flex;
