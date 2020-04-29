@@ -1,5 +1,5 @@
 h1 {
-    background: radial-gradient(circle at top left, #333333, #006d18);
+    background: radial-gradient(circle at top left, #333333, #00881d);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: 'Bebas Neue', cursive;
@@ -8,12 +8,12 @@ h1 {
     margin: 0;
 }
 h2 {
-    color: rgb(138, 138, 138);
+    color: #00658d;
     font-family: 'Bebas Neue', cursive;
     font-size: 2rem;
     font-weight: 200;
     margin: 0;
-    background: radial-gradient(circle at top left, #00658d, #252525);
+    background: #00374d;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
