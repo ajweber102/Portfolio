@@ -102,19 +102,6 @@ a {
     color: rgb(90, 90, 90);
     font-style:lowercase;
 }
-.title {
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: flex-start;
-    align-items: flex-start;
-    font-family: 'Open Sans', sans-serif;
-    width: 100%;
-    color: rgb(44, 44, 44);
-    font-family: 'Bebas Neue', cursive;
-    font-size: 3rem;
-    font-weight: 200;
-    margin: 0;
-}
 .titleCollec {
     display: flex;
     flex-flow: column nowrap;
