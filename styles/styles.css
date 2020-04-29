@@ -318,7 +318,6 @@ footer {
     }
     .heroCol {
         float: left;
-        right: 2rem;
     }
     .infoSection {
         flex-flow: column;
@@ -374,8 +373,5 @@ footer {
     }
     .infoSection {
         padding: 0;
-    }
-    .heroCol {
-        right: 8rem;
     }
 }
