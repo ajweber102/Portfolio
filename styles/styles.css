@@ -209,10 +209,15 @@ a {
 }
 .sectionSubtitle {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     flex-flow: row nowrap;
     text-transform: none;
-    min-width: 50%;
-    max-width: 100%;
+    min-width: 100%;
+}
+.subtitleLink {
+    padding: 0 1rem;
+    justify-content: flex-end;
 }
 .sectionIcon {
     display: flex;
