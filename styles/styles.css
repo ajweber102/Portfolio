@@ -1,13 +1,10 @@
 h1 {
-    background: radial-gradient(circle at top left, rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 166, 0));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: white;
     font-family: 'Bebas Neue', cursive;
     font-size: 3rem;
     font-weight: 200;
     margin: 0;
-    background-size: 400% 400%;
-    animation: gradientBG 15s ease infinite;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.356);
 }
 h2 {
     color: #00658d;
@@ -115,7 +112,7 @@ a {
     align-items: flex-start;
     padding: 2rem;
     font-family: 'Open Sans', sans-serif;
-    width: 55%;
+    width: 65%;
     color: rgb(44, 44, 44);
     font-family: 'Bebas Neue', cursive;
     font-size: 3rem;
