@@ -55,8 +55,8 @@ a {
     padding: 8rem 3rem;
     align-items: center;
     justify-content: flex-start;
-    background: linear-gradient(45deg, #B54F15, #B54F15, #FFA800);
-	background-size: 400% 400%;
+    background: linear-gradient(45deg, rgb(241, 222, 112) 10%, rgb(44, 32, 0), rgb(10, 10, 10), rgb(107, 45, 3), rgb(107, 45, 3));
+	background-size: 300% 300%;
     animation: gradientBG 15s ease infinite;
 }
 .infoItem {
@@ -74,6 +74,7 @@ a {
     min-width: 6rem;
     max-width: 100%;
     padding: 1rem;
+    order: 2;
 }
 .imgtitle {
     display: flex;
@@ -132,7 +133,7 @@ a {
     padding: .3rem; 
     border: 4px transparent;
     border-radius: 200px;
-    background-image: linear-gradient(45deg, rgb(255, 166, 0), rgb(255, 166, 0));
+    background-image: linear-gradient(45deg, rgba(184, 167, 17, 0.281), rgba(255, 255, 255, 0.192));
 	background-size: 400% 400%;
     animation: gradientBG 15s ease infinite;
 }
@@ -168,6 +169,7 @@ a {
     overflow: hidden;
     object-fit: cover;
     opacity: 40%;
+    order: 2;
 }
 .infoSection {
     display: flex;
