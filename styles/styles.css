@@ -62,7 +62,7 @@ a {
 .infoItem {
     display: flex;
     flex-flow: column nowrap;    
-    width: 85%;
+    width: 100%;
     color: rgb(255, 255, 255);
     flex: 1 1 auto;
 }
