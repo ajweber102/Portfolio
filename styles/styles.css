@@ -290,7 +290,7 @@ footer {
     }
     .heroimg {
         position: fixed;
-        opacity: 10%;
+        opacity: 10%!important;
         min-width: 70%;
         flex: 1 1 auto;
         left: 33rem;
@@ -302,7 +302,6 @@ footer {
     }
     .heroimg {
         left: 20rem;
-        opacity:0.8!important;
     }
 }
 @media (max-width: 883px) {
@@ -344,7 +343,6 @@ footer {
         margin: 1rem;
     }
     .heroimg {
-        opacity: 10%;
         min-width: 83%;
         flex: 1 1 auto;
         left: 2rem;
