@@ -302,7 +302,7 @@ footer {
     }
     .heroimg {
         left: 20rem;
-        z-index: -1;
+        opacity:0.8!important;
     }
 }
 @media (max-width: 883px) {
