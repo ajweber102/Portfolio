@@ -56,7 +56,9 @@ a {
     padding: 8rem 3rem;
     align-items: center;
     justify-content: flex-start;
-    background: linear-gradient(45deg, #B54F15, #FFA800);
+    background: linear-gradient(45deg, #B54F15, #B54F15, #FFA800);
+	background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
 }
 .infoItem {
     display: flex;
@@ -144,8 +146,7 @@ a {
     margin: 0 1rem 0 0;
     border: 4px transparent;
     border-radius: 200px;
-    background-image: radial-gradient(circle at top left, #ffffff, #ffffff, #2b2b2b,#004050, #004050);
-	background-size: 400% 400%;
+    background-image: radial-gradient(circle at top left, #606060, #606060);
     animation: gradientBG 15s ease infinite;
 }
 .heroCol {
@@ -216,7 +217,9 @@ a {
 }
 .subtitleLink {
     padding: 0 1rem;
-    justify-content: flex-end;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 .sectionIcon {
     display: flex;
@@ -322,13 +325,14 @@ footer {
         float: left;
     }
     .heroimg {
-        left: 15rem;
+        left: 5rem;
     }
     .infoSection {
         flex-flow: column;
     }
     .titleCol {
         padding: 2rem;
+        flex-flow: column wrap;
     }
     .titleCollec {
         width: 100%;
@@ -341,7 +345,7 @@ footer {
         margin: 1rem;
     }
     .heroimg {
-        position: fixed;
+        position: absolute;
         opacity: 10%;
         min-width: 83%;
         flex: 1 1 auto;
@@ -378,6 +382,15 @@ footer {
         padding: 2rem 0rem;
     }
     .infoSection {
+        padding: 1rem;
+    }
+}
+@media (max-width: 460px) {
+    .sectionSubtitle {
+        align-items: flex-start;
+        flex-flow: column nowrap;
+    }
+    .subtitleLink {
         padding: 0;
     }
 }
