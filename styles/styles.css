@@ -344,7 +344,7 @@ footer {
         margin: 1rem;
     }
     .heroimg {
-        position: absolute;
+        position: fixed;
         opacity: 10%;
         min-width: 83%;
         flex: 1 1 auto;
