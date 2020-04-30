@@ -167,7 +167,7 @@ a {
     padding: .5rem;
     overflow: hidden;
     object-fit: cover;
-    opacity: 40%;
+    opacity: 0.4;
 }
 .infoSection {
     display: flex;
@@ -290,7 +290,7 @@ footer {
     }
     .heroimg {
         position: fixed;
-        opacity: 10%;
+        opacity: 0.1;
         min-width: 70%;
         flex: 1 1 auto;
         left: 33rem;
