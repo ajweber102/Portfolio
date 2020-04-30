@@ -289,7 +289,7 @@ footer {
         max-width: 100%;
     }
     .heroimg {
-        position: fixed;
+        position: absolute;
         opacity: 10%;
         min-width: 70%;
         flex: 1 1 auto;
