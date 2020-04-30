@@ -290,7 +290,7 @@ footer {
     }
     .heroimg {
         position: fixed;
-        opacity: 10%!important;
+        opacity: 10%;
         min-width: 70%;
         flex: 1 1 auto;
         left: 33rem;
@@ -323,6 +323,7 @@ footer {
     }
     .heroimg {
         left: 5rem;
+        z-index: -1;
     }
     .infoSection {
         flex-flow: column;
