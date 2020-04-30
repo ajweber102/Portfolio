@@ -1,11 +1,10 @@
 h1 {
-    background: radial-gradient(circle at top left, #333333, #00881d);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: white;
     font-family: 'Bebas Neue', cursive;
     font-size: 3rem;
     font-weight: 200;
     margin: 0;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.356);
 }
 h2 {
     color: #00658d;
@@ -42,7 +41,6 @@ a {
     font-weight: 700;
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
-    line-height: 1.5rem;
 }
 .container {
     display: flex;
@@ -57,12 +55,15 @@ a {
     padding: 8rem 3rem;
     align-items: center;
     justify-content: flex-start;
+    background: linear-gradient(45deg, #B54F15, #B54F15, #FFA800);
+	background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
 }
 .infoItem {
     display: flex;
     flex-flow: column nowrap;    
     width: 85%;
-    color: rgb(43, 43, 43);
+    color: rgb(255, 255, 255);
     flex: 1 1 auto;
 }
 .titleCol {
@@ -102,7 +103,7 @@ a {
     opacity: .4;
 }
 .subtitle {
-    color: rgb(90, 90, 90);
+    color: rgb(255, 255, 255);
     font-style:lowercase;
 }
 .titleCollec {
@@ -112,7 +113,7 @@ a {
     align-items: flex-start;
     padding: 2rem;
     font-family: 'Open Sans', sans-serif;
-    width: 55%;
+    width: 65%;
     color: rgb(44, 44, 44);
     font-family: 'Bebas Neue', cursive;
     font-size: 3rem;
@@ -120,7 +121,7 @@ a {
     margin: 0;
 }
 .name {
-    color: #009420;
+    color: #32c251;
     font-weight: 1000;
 }
 .avatar {
@@ -131,7 +132,7 @@ a {
     padding: .3rem; 
     border: 4px transparent;
     border-radius: 200px;
-    background-image: radial-gradient(circle at top left, #e7e7e7, #064700, #064700, #cccccc, #68976c, #f3f3f3);
+    background-image: linear-gradient(45deg, rgb(255, 166, 0), rgb(255, 166, 0));
 	background-size: 400% 400%;
     animation: gradientBG 15s ease infinite;
 }
@@ -144,16 +145,14 @@ a {
     margin: 0 1rem 0 0;
     border: 4px transparent;
     border-radius: 200px;
-    background-image: radial-gradient(circle at top left, #ffffff, #ffffff, #2b2b2b,#004050, #004050);
-	background-size: 400% 400%;
+    background-image: radial-gradient(circle at top left, #606060, #606060);
     animation: gradientBG 15s ease infinite;
 }
 .heroCol {
     overflow: hidden;
-    z-index: -1;
-    position: absolute;
+    z-index: 1;
     max-width: 95%;
-    min-width: 95%;
+    min-width: 94%;
 }
 .heroContent {
     display: flex;
@@ -164,7 +163,7 @@ a {
     display: flex;
     flex: 1 1 auto;
     min-width: 18%;
-    max-width: 35%;
+    max-width: 25%;
     padding: .5rem;
     overflow: hidden;
     object-fit: cover;
@@ -217,7 +216,9 @@ a {
 }
 .subtitleLink {
     padding: 0 1rem;
-    justify-content: flex-end;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 .sectionIcon {
     display: flex;
@@ -283,29 +284,24 @@ footer {
 
 /* ------------- MEDIA QUERIES ---------------*/
 
-@media (max-width: 1470px) {
-    
-    .heroimg {
-        max-width: 44%;
-        min-width: 5%;
-        opacity: 20%;
-    }
-}
-
 @media (max-width: 1163px) {
     .section {
         max-width: 100%;
     }
     .heroimg {
-        max-width: 79%;
+        position: fixed;
+        opacity: 10%;
+        min-width: 70%;
+        flex: 1 1 auto;
+        left: 33rem;
     }
 }
 @media (max-width: 1053px) {
     .avatar {
         width: 8rem;
     }
-    .heroCol {
-        position: fixed;
+    .heroimg {
+        left: 20rem;
     }
 }
 @media (max-width: 883px) {
@@ -325,23 +321,20 @@ footer {
     .heroCol {
         float: left;
     }
+    .heroimg {
+        left: 5rem;
+    }
     .infoSection {
         flex-flow: column;
     }
     .titleCol {
         padding: 2rem;
+        flex-flow: column wrap;
     }
     .titleCollec {
         width: 100%;
         padding: 0 1rem 1rem 1rem;
     }
-    .heroimg {
-        max-width: 100%;
-    }
-}
-
-@media (max-width:680) {
-
 }
 
 @media (max-width: 550px) {
@@ -349,8 +342,15 @@ footer {
         width: 8rem;
         margin: 1rem;
     }
+    .heroimg {
+        position: absolute;
+        opacity: 10%;
+        min-width: 83%;
+        flex: 1 1 auto;
+        left: 2rem;
+    }
     .heroContent {
-        display: none;
+        width: 100%;
     }
     .personalSection {
         flex-flow: initial;
@@ -380,6 +380,15 @@ footer {
         padding: 2rem 0rem;
     }
     .infoSection {
+        padding: 1rem;
+    }
+}
+@media (max-width: 460px) {
+    .sectionSubtitle {
+        align-items: flex-start;
+        flex-flow: column nowrap;
+    }
+    .subtitleLink {
         padding: 0;
     }
 }
