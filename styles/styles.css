@@ -150,7 +150,6 @@ a {
 }
 .heroCol {
     overflow: hidden;
-    z-index: 1;
     max-width: 95%;
     min-width: 94%;
 }
@@ -162,7 +161,6 @@ a {
 .heroimg {
     display: flex;
     position: relative;
-    z-index: 0;
     flex: 1 1 auto;
     min-width: 18%;
     max-width: 25%;
@@ -304,6 +302,7 @@ footer {
     }
     .heroimg {
         left: 20rem;
+        z-index: -1;
     }
 }
 @media (max-width: 883px) {
