@@ -161,6 +161,8 @@ a {
 }
 .heroimg {
     display: flex;
+    position: relative;
+    z-index: 0;
     flex: 1 1 auto;
     min-width: 18%;
     max-width: 25%;
@@ -168,7 +170,6 @@ a {
     overflow: hidden;
     object-fit: cover;
     opacity: 40%;
-    z-index: -1;
 }
 .infoSection {
     display: flex;
@@ -290,7 +291,7 @@ footer {
         max-width: 100%;
     }
     .heroimg {
-        position: absolute;
+        position: fixed;
         opacity: 10%;
         min-width: 70%;
         flex: 1 1 auto;
@@ -344,7 +345,6 @@ footer {
         margin: 1rem;
     }
     .heroimg {
-        position: absolute;
         opacity: 10%;
         min-width: 83%;
         flex: 1 1 auto;
