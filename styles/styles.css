@@ -74,7 +74,6 @@ a {
     min-width: 6rem;
     max-width: 100%;
     padding: 1rem;
-    order: 2;
 }
 .imgtitle {
     display: flex;
@@ -169,7 +168,7 @@ a {
     overflow: hidden;
     object-fit: cover;
     opacity: 40%;
-    order: 2;
+    z-index: -1;
 }
 .infoSection {
     display: flex;
