@@ -323,7 +323,6 @@ footer {
     }
     .heroimg {
         left: 5rem;
-        z-index: -1;
     }
     .infoSection {
         flex-flow: column;
@@ -347,6 +346,7 @@ footer {
         min-width: 83%;
         flex: 1 1 auto;
         left: 2rem;
+        z-index: -1;
     }
     .heroContent {
         width: 100%;
