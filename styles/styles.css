@@ -332,7 +332,6 @@ footer {
     }
     .personalSection {
         flex-flow: initial;
-        padding: 0 3rem 0 3rem;
     }
     .heroCol {
         float: left;
@@ -346,7 +345,7 @@ footer {
         flex-flow: column;
     }
     .titleCol {
-        padding: 2rem;
+        padding: 0 2rem;
         flex-flow: column wrap;
     }
     .titleCollec {
@@ -383,9 +382,6 @@ footer {
     .titleCol {
         padding: 1rem 0 0 0;
         justify-content: center;
-    }
-    .section {
-        padding: 3rem;
     }
     .container {
         display: flex;
