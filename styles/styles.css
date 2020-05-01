@@ -8,12 +8,12 @@ h1 {
     letter-spacing: 1px;
 }
 h2 {
-    color: rgb(107, 45, 3);
+    color: rgb(36, 18, 7);
     font-family: 'Bebas Neue', cursive;
     font-size: 2rem;
     font-weight: 200;
     margin: 0;
-    background: rgb(107, 45, 3);
+    background: rgb(36, 18, 7);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
