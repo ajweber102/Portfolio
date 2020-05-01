@@ -420,4 +420,7 @@ footer {
     .subtitleLink {
         padding: 0;
     }
+    .personalSection {
+        background-size: 800% 800%;
+    }
 }
