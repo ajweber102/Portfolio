@@ -1,7 +1,7 @@
 h1 {
     color: white;
     font-family: 'Bebas Neue', cursive;
-    font-size: 3rem;
+    font-size: 5rem;
     font-weight: 200;
     margin: 0;
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.356);
@@ -21,17 +21,17 @@ h3 {
     font-family: 'Barlow Semi Condensed', sans-serif;
     text-transform: none;
     color: rgb(68, 68, 68);
-    font-size: 1rem;
+    font-size: 1.1rem;
     letter-spacing: 0.02em;
 }
 h4 {
-    color: rgb(34, 34, 34);
+    color: rgb(73, 73, 73);
     font-family: 'Bebas Neue', cursive;
     font-style: normal;
     font-size: 1.5rem;
     font-weight: 200;
     margin: 0;
-    background: rgb(34, 34, 34);
+    background: rgb(73, 73, 73);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
