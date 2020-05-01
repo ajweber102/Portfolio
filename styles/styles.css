@@ -307,9 +307,9 @@ footer {
     .heroimg {
         position: absolute;
         opacity: 0.1;
-        min-width: 70%;
+        min-width: 37%;
         flex: 1 1 auto;
-        left: 33rem;
+        left: 40rem;
     }
 }
 @media (max-width: 1053px) {
@@ -317,12 +317,12 @@ footer {
         width: 8rem;
     }
     .heroimg {
-        left: 20rem;
+        left: 33rem;
     }
 }
 @media (max-width: 883px) {
     .avatar {
-        margin: 2rem 2rem 2rem 0;
+        margin: 2rem  0;
     }
     .container {
         flex-flow: column wrap;
@@ -338,7 +338,8 @@ footer {
         float: left;
     }
     .heroimg {
-        left: 5rem;
+        left: 15rem;
+        flex: 0 1 auto;
         position: absolute;
     }
     .infoSection {
@@ -351,6 +352,14 @@ footer {
     .titleCollec {
         width: 100%;
         padding: 0 1rem 1rem 1rem;
+    }
+}
+
+@media (max-width: 700px) {
+    .heroimg {
+        min-width: 60%;
+        flex: 1 1 auto;
+        left: 8rem;
     }
 }
 
