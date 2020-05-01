@@ -5,14 +5,15 @@ h1 {
     font-weight: 200;
     margin: 0;
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.356);
+    letter-spacing: 1px;
 }
 h2 {
-    color: #00658d;
+    color: rgb(107, 45, 3);
     font-family: 'Bebas Neue', cursive;
     font-size: 2rem;
     font-weight: 200;
     margin: 0;
-    background: #00374d;
+    background: rgb(107, 45, 3);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -22,6 +23,17 @@ h3 {
     color: rgb(68, 68, 68);
     font-size: 1rem;
     letter-spacing: 0.02em;
+}
+h4 {
+    color: rgb(34, 34, 34);
+    font-family: 'Bebas Neue', cursive;
+    font-style: normal;
+    font-size: 1.5rem;
+    font-weight: 200;
+    margin: 0;
+    background: rgb(34, 34, 34);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 body {
     margin: 0;
@@ -41,6 +53,9 @@ a {
     font-weight: 700;
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
+}
+a:hover {
+    opacity: .7;
 }
 .container {
     display: flex;
@@ -100,7 +115,7 @@ a {
     padding-left: 1rem;
 }
 .socialIcon:hover {
-    opacity: .4;
+    opacity: .7;
 }
 .subtitle {
     color: rgb(255, 255, 255);
@@ -146,7 +161,7 @@ a {
     margin: 0 1rem 0 0;
     border: 4px transparent;
     border-radius: 200px;
-    background-image: radial-gradient(circle at top left, #606060, #606060);
+    background-image: radial-gradient(circle at top left, #6B2D03, #6B2D03);
     animation: gradientBG 15s ease infinite;
 }
 .heroCol {
