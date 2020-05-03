@@ -5,7 +5,7 @@ h1 {
     font-weight: 200;
     margin: 0;
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.356);
-    letter-spacing: 1px;
+    letter-spacing: 2px;
 }
 h2 {
     color: rgb(36, 18, 7);
@@ -70,7 +70,7 @@ a:hover {
     padding: 8rem 3rem;
     align-items: center;
     justify-content: flex-start;
-    background: linear-gradient(45deg, #4b658b 10%, rgb(44, 32, 0), rgb(10, 10, 10), rgb(107, 45, 3), rgb(34, 3, 107));
+    background: linear-gradient(45deg, #4b658b 10%, #111824, rgb(10, 10, 10), rgb(107, 45, 3), rgb(34, 3, 107));
 	background-size: 300% 300%;
     animation: gradientBG 15s ease infinite;
 }
