@@ -161,7 +161,8 @@ a:hover {
     margin: 0 1rem 0 0;
     border: 4px transparent;
     border-radius: 200px;
-    background-image: radial-gradient(circle at top left, #6B2D03, #6B2D03);
+    background-size: 400% 400%;
+    background-image: radial-gradient(circle at top left, #4b658b 10%, #4b658b, rgb(9, 23, 32), rgb(107, 45, 3), rgb(107, 45, 3), rgb(34, 3, 107));
     animation: gradientBG 15s ease infinite;
 }
 .heroCol {
