@@ -8,20 +8,21 @@ h1 {
     letter-spacing: 2px;
 }
 h2 {
-    color: rgb(36, 18, 7);
+    color: rgb(42, 60, 83);
     font-family: 'Bebas Neue', cursive;
     font-size: 2rem;
     font-weight: 200;
     margin: 0;
-    background: rgb(36, 18, 7);
+    background: rgb(42, 60, 83);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 h3 {
-    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Darker Grotesque', sans-serif;
     text-transform: none;
-    color: rgb(68, 68, 68);
-    font-size: 1.05rem;
+    color: rgb(87, 87, 87);
+    font-size: 1.1rem;
     letter-spacing: 0.02em;
 }
 h4 {
@@ -162,7 +163,7 @@ a:hover {
     border: 4px transparent;
     border-radius: 200px;
     background-size: 400% 400%;
-    background-image: radial-gradient(circle at top left, #4b658b 10%, #4b658b, rgb(9, 23, 32), rgb(107, 45, 3), rgb(107, 45, 3), rgb(34, 3, 107));
+    background-image: radial-gradient(circle at top left, #4b658b 10%, #4b658b);
     animation: gradientBG 15s ease infinite;
 }
 .heroCol {
