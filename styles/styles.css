@@ -362,6 +362,10 @@ footer {
         flex: 1 1 auto;
         left: 8rem;
     }
+    
+    .footerSection {
+        padding: 2rem;
+    }
 }
 
 @media (max-width: 550px) {
@@ -391,18 +395,14 @@ footer {
         flex-flow: column nowrap;
         min-height: 100%;
     }
-    footer {
-        display: flex;
-        flex: 1 1 auto;
-        flex-flow: row wrap;
-        margin: 0;
-        background-color: rgb(233, 233, 233);
-    }
-    .footerSection {
-        padding: 2rem 0rem;
-    }
     .infoSection {
         padding: 1rem;
+    }
+    .superfooterSection {
+        padding: 0;
+    }
+    .footerSection {
+        padding: 2rem 2rem 2rem 0;
     }
 }
 @media (max-width: 460px) {
