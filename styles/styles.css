@@ -19,10 +19,11 @@ h2 {
 }
 
 h3 {
-    font-family: 'Darker Grotesque', sans-serif;
+    font-family: 'Lato', sans-serif;
     text-transform: none;
-    color: rgb(87, 87, 87);
-    font-size: 1.1rem;
+    color: rgb(85, 85, 85);
+    font-size: .9rem;
+    font-weight: 600;
     letter-spacing: 0.02em;
 }
 h4 {
