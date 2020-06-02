@@ -4,7 +4,7 @@ h1 {
     font-size: 5rem;
     font-weight: 200;
     margin: 0;
-    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.356);
+    text-shadow: 4px 4px 4px rgba(20, 20, 20, 0.747);
     letter-spacing: 2px;
 }
 h2 {
@@ -15,25 +15,26 @@ h2 {
     margin: 0;
     background: rgb(247, 247, 247);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    text-shadow: 4px 4px 1px rgba(26, 59, 75, 0.877);
 }
 
 h3 {
     font-family: 'Lato', sans-serif;
     text-transform: none;
-    color: rgb(255, 255, 255);
+    color: rgb(175, 175, 175);
     font-size: .9rem;
     font-weight: 600;
     letter-spacing: 0.02em;
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.356);
 }
 h4 {
-    color: rgb(73, 73, 73);
+    color: rgb(175, 175, 175);
     font-family: 'Bebas Neue', cursive;
     font-style: normal;
     font-size: 1.5rem;
     font-weight: 200;
     margin: 0;
-    background: rgb(73, 73, 73);
+    background: rgb(175, 175, 175);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -124,10 +125,15 @@ hr {
 }
 .socialIcon--logo {
     width: 3.5rem;
-    padding-left: 1rem;
+    padding: 0.8rem;
+    margin: 0 .4rem;
+    background: #141414;
+    border-radius: .6rem;
+    box-shadow: 4px 4px 1px #232323;
 }
-.socialIcon:hover {
-    opacity: .7;
+.socialIcon--logo:hover {
+    box-shadow: 8px 8px 3px #232323;
+    background: #080808;
 }
 .subtitle {
     color: rgb(255, 255, 255);
@@ -287,7 +293,7 @@ footer {
     flex: 1 1 auto;
     flex-flow: row wrap;
     padding: 0 3rem 3rem 3rem;
-    background-color: rgb(233, 233, 233);
+    background-color: rgb(24, 24, 24);
 }
 .footerSectionTitle {
     font-style: normal;
@@ -308,7 +314,7 @@ footer {
     flex: 0 1 auto;
     flex-flow: row nowrap;
     padding: 0 2rem;
-    background-color: rgb(233, 233, 233);
+    background-color: rgb(24, 24, 24);
 }
 
 /* ------------- MEDIA QUERIES ---------------*/
