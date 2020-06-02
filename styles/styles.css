@@ -180,7 +180,7 @@ hr {
     border: 4px transparent;
     border-radius: 200px;
     background-size: 300% 300%;
-    background-image: linear-gradient(75deg,rgb(20, 20, 20), #1a1a1a, #ffffff, #ffffff);
+    background-image: linear-gradient(75deg,rgb(20, 20, 20), #1a1a1a, #4b658b, #ffffff, #ffffff);
     animation: gradientBG 15s ease infinite;
 }
 .heroCol {
