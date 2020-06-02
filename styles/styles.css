@@ -293,7 +293,7 @@ footer {
     flex: 1 1 auto;
     flex-flow: row wrap;
     padding: 0 3rem 3rem 3rem;
-    background-color: rgb(24, 24, 24);
+    background-color: rgb(19, 19, 19);
 }
 .footerSectionTitle {
     font-style: normal;
@@ -314,7 +314,7 @@ footer {
     flex: 0 1 auto;
     flex-flow: row nowrap;
     padding: 0 2rem;
-    background-color: rgb(24, 24, 24);
+    background-color: rgb(19, 19, 19);
 }
 
 /* ------------- MEDIA QUERIES ---------------*/
