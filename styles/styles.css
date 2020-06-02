@@ -62,7 +62,7 @@ a:hover {
 }
 hr {
     background: linear-gradient(10deg, rgb(3, 128, 86) 1%, #4b658b 10%, #111824, rgb(10, 10, 10), rgb(107, 45, 3), rgb(34, 3, 107));
-    height: .5rem;
+    height: .3rem;
     width: 100%;
     margin: 0;
     padding: 0;
