@@ -15,17 +15,18 @@ h2 {
     margin: 0;
     background: rgb(247, 247, 247);
     -webkit-background-clip: text;
-    text-shadow: 4px 4px 1px #094d3de0;
+    text-shadow: 4px 4px 1px #054133e0;
 }
 
 h3 {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Darker Grotesque', sans-serif;
     text-transform: none;
-    color: rgb(189, 189, 189);
-    font-size: .9rem;
-    font-weight: 600;
-    letter-spacing: 0.02em;
-    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.356);
+    color: rgb(255, 255, 255);
+    font-size: 1.11rem;
+    font-weight: 300;
+    letter-spacing: 0.03em;
+    text-shadow: 4px 4px 6px rgb(14, 14, 14);
+    margin: .8rem 0;
 }
 h4 {
     color: rgb(175, 175, 175);
@@ -182,7 +183,7 @@ hr {
     border: 4px transparent;
     border-radius: 200px;
     background-size: 300% 300%;
-    background-image: linear-gradient(75deg,rgb(20, 20, 20), #1a1a1a, #4b658b, #ffffff, #ffffff);
+    background-image: linear-gradient(75deg,rgb(20, 20, 20), #1a1a1a, #054133, #05413383, #1a1a1a);
     animation: gradientBG 15s ease infinite;
 }
 .heroCol {
