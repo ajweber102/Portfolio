@@ -15,7 +15,7 @@ h2 {
     margin: 0;
     background: rgb(247, 247, 247);
     -webkit-background-clip: text;
-    text-shadow: 4px 4px 1px rgba(26, 59, 75, 0.877);
+    text-shadow: 4px 4px 1px #094d3de0;
 }
 
 h3 {
@@ -59,6 +59,9 @@ a {
 }
 a:hover {
     opacity: .7;
+}
+strong {
+    font-weight: 800;
 }
 hr {
     background: linear-gradient(10deg, rgb(3, 128, 86) 1%, #4b658b 10%, #111824, rgb(10, 10, 10), rgb(107, 45, 3), rgb(34, 3, 107));
@@ -127,13 +130,12 @@ hr {
     width: 3.5rem;
     padding: 0.8rem;
     margin: 0 .4rem;
-    background: #141414;
-    border-radius: .6rem;
-    box-shadow: 4px 4px 1px #232323;
+    background: #ffffff;
+    border-radius: .5rem;
+    stroke: 4px black;
 }
 .socialIcon--logo:hover {
-    box-shadow: 6px 6px 2px #232323;
-    background: #080808;
+    box-shadow: inset 2px 2px 2px rgb(117, 117, 117);
 }
 .subtitle {
     color: rgb(255, 255, 255);
