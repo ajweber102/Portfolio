@@ -131,12 +131,12 @@ hr {
     width: 3.5rem;
     padding: 0.8rem;
     margin: 0 .4rem;
-    background: #ffffff;
+    background: #111111;
     border-radius: .5rem;
     stroke: 4px black;
 }
 .socialIcon--logo:hover {
-    box-shadow: inset 2px 2px 2px rgb(117, 117, 117);
+    box-shadow: inset 2px 2px 2px rgb(2, 2, 2);
 }
 .subtitle {
     color: rgb(255, 255, 255);
