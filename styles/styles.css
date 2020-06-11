@@ -22,7 +22,7 @@ h3 {
     font-family: 'Darker Grotesque', sans-serif;
     text-transform: none;
     color: rgb(255, 255, 255);
-    font-size: 1.11rem;
+    font-size: 1.15rem;
     font-weight: 300;
     letter-spacing: 0.03em;
     text-shadow: 4px 4px 6px rgb(14, 14, 14);
@@ -307,9 +307,9 @@ footer {
 }
 .footerSection {
     display: flex;
-    flex: 1 1 auto;
+    flex: 1 1;
     flex-flow: row wrap;
-    padding: 2rem;
+    padding: 1rem;
 }
 .superfooterSection {
     display: flex;
@@ -421,6 +421,9 @@ footer {
     }
     .superfooterSection {
         padding: 0;
+    }
+    footer {
+        flex-direction: column;
     }
     .footerSection {
         padding: 2rem 2rem 2rem 0;
