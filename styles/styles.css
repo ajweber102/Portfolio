@@ -307,9 +307,9 @@ footer {
 }
 .footerSection {
     display: flex;
-    flex: 1 1;
+    flex: 1 1 auto;
     flex-flow: row wrap;
-    padding: 1rem;
+    padding: 2rem;
 }
 .superfooterSection {
     display: flex;
@@ -422,9 +422,6 @@ footer {
     .superfooterSection {
         padding: 0;
     }
-    footer {
-        flex-direction: column;
-    }
     .footerSection {
         padding: 2rem 2rem 2rem 0;
     }
@@ -445,8 +442,5 @@ footer {
     }
     .subtitleLink {
         padding: 0;
-    }
-    footer {
-        padding: column;
     }
 }
