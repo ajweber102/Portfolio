@@ -130,7 +130,7 @@ hr {
 .socialIcon--logo {
     width: 3.5rem;
     padding: 0.8rem;
-    margin: 0 .4rem;
+    margin: .4rem .4rem .4rem 0;
     background: #111111;
     border-radius: .5rem;
     stroke: 4px black;
@@ -295,7 +295,8 @@ footer {
     display: flex;
     flex: 1 1 auto;
     flex-flow: row wrap;
-    padding: 0 3rem 3rem 3rem;
+    justify-content: space-between;
+    padding: 0 4rem 4rem 4rem;
     background-color: rgb(19, 19, 19);
 }
 .footerSectionTitle {
@@ -308,8 +309,9 @@ footer {
 .footerSection {
     display: flex;
     flex: 1 1 auto;
-    flex-flow: row wrap;
-    padding: 2rem;
+    flex-flow: column wrap;
+    padding: 1rem;
+    max-width: 25%;
 }
 .superfooterSection {
     display: flex;
@@ -382,9 +384,9 @@ footer {
         flex: 1 1 auto;
         left: 8rem;
     }
-    
     .footerSection {
-        padding: 2rem;
+        padding: 1rem;
+        min-width: 38%;
     }
 }
 
@@ -419,11 +421,14 @@ footer {
     .infoSection {
         padding: 1rem;
     }
+    footer {
+        padding: 0 3rem 3rem 3rem;
+    }
     .superfooterSection {
         padding: 0;
     }
     .footerSection {
-        padding: 2rem 2rem 2rem 0;
+        padding: 1rem 1rem 1rem 0;
     }
 }
 @media (max-width: 460px) {
@@ -433,6 +438,10 @@ footer {
     }
     .subtitleLink {
         padding: 0;
+    }
+    .footerSection {
+        padding: 1rem 1rem 1rem 0;
+        min-width: 100%;
     }
 }
 @media (max-width: 480px) {
