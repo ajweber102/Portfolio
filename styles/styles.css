@@ -15,7 +15,7 @@ h2 {
     margin: 0;
     background: rgb(247, 247, 247);
     -webkit-background-clip: text;
-    text-shadow: 4px 4px 1px #054133e0;
+    text-shadow: 4px 4px 1px #074a3ae0;
 }
 
 h3 {
@@ -304,7 +304,7 @@ footer {
     font-size: 1.5rem;
 }
 .footerContent {
-    line-height: .9rem;
+    line-height: 1.5rem;
 }
 .footerSection {
     display: flex;
