@@ -115,6 +115,18 @@ hr {
     min-width: 55rem;
     max-width: 70rem;
 }
+.socialLinks {
+    flex-flow: row nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.socialItem {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 2px;
+}
 .socialIcons {
     display: flex;
     flex-flow: row nowrap;
