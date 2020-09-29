@@ -138,12 +138,13 @@ hr {
     width: 1.5rem;
     height: 1.5rem;
     padding: .4rem;
+    border: 4px #054133;
 }
 .socialIcon--logo {
     width: 3.5rem;
     padding: 0.8rem;
     margin: .4rem .4rem .4rem 0;
-    background: #111111;
+    background: #ececec;
     border-radius: .5rem;
     stroke: 4px black;
 }
